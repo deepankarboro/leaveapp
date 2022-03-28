@@ -35,7 +35,11 @@ Deleting or editing a leave<br>
 
 Upon doing a CTA event(add new leave, edit already existing leave, delete future leave), google sheets is updated. Any edit on google sheet triggers the function "OnChangeTrigger", which looks for the kind of event triggered, and accordingly calls the respective function.
 
+Here's how to do the same.
+
+Go to "Triggers" menu on App Script, and follow the below for automating running of the scripts.
+<img width="707" alt="Screenshot 2022-03-28 at 3 18 59 PM" src="https://user-images.githubusercontent.com/59099012/160372834-48847569-c992-41b9-9cc0-95c3f531a060.png">
+
 The respective functions update data from google sheets on google calendar.
 
 You can reach out to me at deepankarboro@hotmail.com for more information.
-
