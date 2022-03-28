@@ -22,17 +22,16 @@ I haven't done any performance on the "for loops" used. If someone can optimise 
 
 I am bad at writing recursion queries. Will be very hapy if someone can do it.
 
-A glimse of how the front-end looks like.
+A glimse of how the front-end looks like.<br>
 
 Takes your gmail account to login to the app, and shows only your leaves.
-<img width="383" alt="Screenshot 2022-03-28 at 3 08 51 PM" src="https://user-images.githubusercontent.com/59099012/160371049-a274df8f-df3a-4b90-aed8-95eddbb86049.png">
+<img width="383" alt="Screenshot 2022-03-28 at 3 08 51 PM" src="https://user-images.githubusercontent.com/59099012/160371049-a274df8f-df3a-4b90-aed8-95eddbb86049.png"><br>
 
+Ading a New Leave<br>
+<img width="392" alt="Screenshot 2022-03-28 at 3 07 39 PM" src="https://user-images.githubusercontent.com/59099012/160370705-ede5158f-5f6a-47b5-8306-9263500179e0.png"><br>
 
-Ading a New Leave
-<img width="392" alt="Screenshot 2022-03-28 at 3 07 39 PM" src="https://user-images.githubusercontent.com/59099012/160370705-ede5158f-5f6a-47b5-8306-9263500179e0.png">
-
-Deleting or editing a leave
-<img width="392" alt="Screenshot 2022-03-28 at 3 11 30 PM" src="https://user-images.githubusercontent.com/59099012/160371395-b2a27ecc-543e-4014-a141-61181ebb4c61.png">
+Deleting or editing a leave<br>
+<img width="392" alt="Screenshot 2022-03-28 at 3 11 30 PM" src="https://user-images.githubusercontent.com/59099012/160371395-b2a27ecc-543e-4014-a141-61181ebb4c61.png"><br>
 
 Upon doing a CTA event(add new leave, edit already existing leave, delete future leave), google sheets is updated. Any edit on google sheet triggers the function "OnChangeTrigger", which looks for the kind of event triggered, and accordingly calls the respective function.
 
